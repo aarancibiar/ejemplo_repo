@@ -22,7 +22,7 @@ class VehiculosTableSeeder extends Seeder
                 'tipo_vehiculo' => 'Sedan',
                 'disponibilidad' => true,
                 'modelo' => 'Toyota Corolla',
-                'imagen' => 'images/Mc.jpg'
+                'imagen' => 'vehiculos/Mc.jpg'
             ],
             [
                 'patente' => 'DEF456',
@@ -30,7 +30,7 @@ class VehiculosTableSeeder extends Seeder
                 'tipo_vehiculo' => 'Coupe',
                 'disponibilidad' => false,
                 'modelo' => 'Toyota Supra',
-                'imagen' => 'images/supra.jpg'
+                'imagen' => 'vehiculos/supra.jpg'
             ],
             // Agrega más datos según sea necesario
         ]);
