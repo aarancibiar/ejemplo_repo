@@ -6,7 +6,7 @@
         <div class="col-md-8">
             <h2>Listado de Vehículos</h2>
         </div>
-        <div class="col-md-4 text-right">
+        <div class="col-md-4 d-flex justify-content-end">
             <a href="{{ route('vehiculos.create') }}" class="btn btn-info">Agregar Vehículo</a>
         </div>
     </div>

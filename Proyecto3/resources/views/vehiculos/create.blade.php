@@ -32,7 +32,9 @@
                                 <option value="Sedán">Sedán</option>
                                 <option value="Camioneta">Camioneta</option>
                                 <option value="Deportivo">Deportivo</option>
-                                <!-- Agrega más opciones según tus necesidades -->
+                                <option value="Coupe">Coupe</option>
+                                <option value="Suburban">Suburban</option>
+                                <option value="Moto">Moto</option>
                             </select>
                         </div>
 
