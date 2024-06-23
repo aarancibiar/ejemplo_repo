@@ -12,3 +12,7 @@ Route::get('/vehiculos', [VehiculoController::class, 'index'])->name('vehiculos.
 
 Route::get('/vehiculos/create', [VehiculoController::class, 'create'])->name('vehiculos.create');
 Route::post('/vehiculos', [VehiculoController::class, 'store'])->name('vehiculos.store');
+
+Route::get('/sedan', 'VehiculoController@sedan');
+Route::get('/suburban', 'VehiculoController@suburban');
+Route::get('/camionetas', 'VehiculoController@camionetas');

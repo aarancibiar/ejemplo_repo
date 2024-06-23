@@ -56,4 +56,30 @@ class VehiculoController extends Controller
         $vehiculos = Vehiculo::all();
         return view('vehiculos.index', compact('vehiculos'));
     }
+
+    public function sedan()
+    {
+    // Lógica para obtener los arriendos de sedanes y las fotos
+        $arriendosSedan = Arriendo::where('tipo_vehiculo', 'sedan')->get();
+        
+    return view('sedan', ['arriendos' => $arriendosSedan]);
+    }
+
+    public function suburban()
+    {
+    // Lógica para obtener los arriendos de sedanes y las fotos
+        $arriendosSuburban = Arriendo::where('tipo_vehiculo', 'suburban')->get();
+
+    return view('suburban', ['arriendos' => $arriendosSuburban]);
+    }
+
+    public function camionetas()
+    {
+    // Lógica para obtener los arriendos de sedanes y las fotos
+        $arriendosCamionetas = Arriendo::where('tipo_vehiculo', 'camionetas')->get();
+
+    return view('camionetas', ['arriendos' => $arriendosCamionetas]);
+    }
+
+
 }
